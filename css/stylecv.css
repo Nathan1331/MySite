@@ -1,0 +1,156 @@
+adding: 0;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+#header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+#header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#header h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+#about {
+  padding: 20px;
+}
+
+#about h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#contact {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+#skills {
+  padding: 20px;
+}
+
+#skills h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#experience {
+  padding: 20px;
+}
+
+#experience h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#experience .job {
+  margin-bottom: 20px;
+}
+
+#experience .job h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#experience .job p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#education {
+  padding: 20px;
+}
+
+#education h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+
+  #header h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  #header h2 {
+    font-size: 2.2em;
+    margin-bottom: 0;
+  }
+
+  #about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+
+  #about p {
+    flex-basis: 60%;
+    margin-right: 50px;
+  }
+
+  #contact {
+    padding: 20px 50px;
+    text-align: right;
+  }
+
+  #skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px;
+  }
+
+  #skills ul {
+    flex-basis: 50%;
+    margin-right: 50px;
+  }
+
+  #experience {
+    padding: 20px 50px;
+  }
+
+  #education {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px;
+  }
+
+  #education ul {
+    flex-basis: 50%;
+    margin-right: 50px;
+  }
+}

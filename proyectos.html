@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Nathan Rosales <span> Freelancer</span></h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos personales</a>
+            <a href="sobremi.html">Sobre mi</a>
+        </nav>
+    </div>  
+    <section class="hero">
+        <div class="contenido-hero">
+            <section class="opciones">
+                <div class="contenido__general">
+                    <div onclick="filterOptions('C#')" class="elemento__fotos elemento__1">
+                        <div class="titulo__elemento">C#</div>
+                    </div>
+                    <div onclick="filterOptions('React')" class="elemento__fotos elemento__2">
+                        <div class="titulo__elemento">React</div>
+                    </div>
+                    <div class="elemento__fotos elemento__3">
+                        <div onclick="filterOptions('All')" class="titulo__inicial"><span>Deslice el mouse</span></div>
+                        <div onclick="filterOptions('All')" class="titulo__elemento">Todos los proyectos</div>
+                    </div>
+                    <div onclick="filterOptions('HTML')" class="elemento__fotos elemento__4">
+                        <div class="titulo__elemento">Web HTML-CSS</div>
+                    </div>
+                    <div onclick="filterOptions('Database')" class="elemento__fotos elemento__5">
+                        <div class="titulo__elemento">Database</div>
+                    </div>
+                </div>
+            </section>
+        
+        </div>
+      
+        
+    </section>
+    <div class="proyectos">
+        <section class="proyecto React HTML">
+            <div class="proyecto-img">
+                <img class="imagen-proyecto" src="./img/MovieLand.jpg" alt="Image">
+                <h2 class="img-description">REACT JS <br> HTML <br>CSS </h2>    
+            </div>
+            <div class="proyecto-text">
+              <h2>REACT Movie Land</h2>
+              <p>MovieLand es un proyecto web desarrollado con tecnologías React, HTML y CSS, que permite a los usuarios buscar películas utilizando un API de películas. El objetivo principal del proyecto es proporcionar una herramienta de búsqueda de películas fácil de usar y accesible para los usuarios.
+                <br>
+                La interfaz de usuario de MovieLand es atractiva y funcional, lo que permite a los usuarios buscar películas utilizando el nombre de la película. Una vez que se introduce el nombre de la película, el sistema muestra una lista de títulos de películas y su género correspondiente, lo que permite a los usuarios encontrar fácilmente la película que están buscando.
+                <br>
+                El proyecto utiliza tecnologías de React para crear una interfaz de usuario rápida y sensible, que permite a los usuarios buscar películas sin demora. Además, se ha integrado un API de películas para garantizar que los resultados de búsqueda sean precisos y actualizados. </p>
+              <a class="enlaces-proyecto" href="http://movielandnatewrld.netlify.com" target="_blank"><button class="boton boton-proyecto"> VER PROYECTO</button></a>
+            </div>
+        </section>
+        <section class="proyecto HTML">
+            <div class="proyecto-text">
+                <h2>HTML/CSS Blog cafe</h2>
+                <p>Blog Café es un proyecto web desarrollado con tecnologías HTML y CSS, que incluye una página de nosotros, cursos y contacto. El objetivo principal del proyecto es proporcionar a los usuarios un sitio web informativo y atractivo que promueva un negocio de cafetería y ofrezca información sobre los cursos que se imparten.
+                    <br>
+                    La página de nosotros presenta información detallada sobre el negocio de la cafetería, su historia y sus valores fundamentales. La página de cursos ofrece información sobre los cursos que se imparten, su duración y sus precios, así como un formulario de registro en línea para aquellos que deseen inscribirse.
+                    <br>
+                    La página de contacto incluye información de contacto detallada, así como un formulario de contacto en línea para que los clientes puedan enviar comentarios, preguntas y solicitudes directamente al equipo de la cafetería.</p>
+                    <a class="enlaces-proyecto" href="http://blogcafenatewrld.netlify.com" target="_blank"><button class="boton boton-proyecto">VER PROYECTO</button></a>
+            </div>
+            <div class="proyecto-img">
+                <img class="imagen-proyecto" src="./img/blogCafe.jpg" alt="Image">
+                <h2 class="img-description">JAVASCRIPT <br>HTML <br> CSS </h2>    
+
+            </div>
+        </section>
+
+        <section class="proyecto C# Database">
+            <div class="proyecto-img">
+                <img class="imagen-proyecto" src="./img/ASPStore.png" alt="Image">
+                <h2 class="img-description">ASP.NET Core <br> C# <br>Entity Framework<br>SQL <br>MongoDB</h2>    
+            </div>
+            <div class="proyecto-text">
+              <h2>C# Nate Store</h2>
+              <p>Esta tienda virtual es un proyecto desarrollado con tecnologías de ASP.NET C#, Entity Framework y SQL como base de datos. El proyecto permite a los usuarios crear productos y manipularlos a su gusto, incluyendo la opción de subir imágenes para ser almacenadas en la base de datos.
+                </BR>
+                La interfaz de usuario es amigable y permite a los usuarios  acceder a la funcionalidad de la tienda virtual. La creación de productos y la manipulación de datos se realiza a través de formularios en línea, que permiten a los usuarios agregar información detallada sobre cada producto y cargar imágenes para ser almacenadas en la base de datos.
+                <BR>
+                El proyecto utiliza Entity Framework para administrar la conexión a la base de datos de SQL, lo que garantiza un acceso seguro y rápido a los datos. La inclusión de la funcionalidad de carga de imágenes y la manipulación de productos permite a los usuarios personalizar la tienda virtual según sus necesidades y preferencias.</p>
+                <a class="enlaces-proyecto" href="https://github.com/Nathan1331" target="_blank"><button class="boton boton-proyecto">VER CODIGO</button></a>
+            </div>
+        </section>
+        <section class="proyecto C# Database">
+            <div class="proyecto-text">
+                <h2>C# Ruteo de Buses</h2>
+                <p>C# Ruteo de Buses es un proyecto desarrollado con tecnologías de ASP.NET C#, Entity Framework y SQL como base de datos, junto con MongoDB para almacenar registros de bitácora de acciones. El proyecto tiene una funcionalidad de inicio de sesión para usuarios autorizados y permite realizar el ruteo de buses para un sistema de transporte.
+                        <br>
+                    El proyecto presenta una interfaz de usuario amigable que permite a los usuarios acceder a las funcionalidades de ruteo. Los datos del sistema de transporte se almacenan en la base de datos de SQL, mientras que los registros de bitácora se almacenan en la base de datos de MongoDB.
+                    <br>
+                    El proyecto también utiliza Entity Framework para administrar la conexión a la base de datos, Y se implementan los metodos de un CRUD (Create, Read, Update, Delete) utilizando el modelo de code first.
+                </p>
+                <a class="enlaces-proyecto" href="https://github.com/Nathan1331" target="_blank"><button class="boton boton-proyecto">VER CODIGO</button></a>
+            </div>
+            <div class="proyecto-img">
+                <img class="imagen-proyecto" src="./img/BusesRutas.jpg" alt="Image">
+                <h2 class="img-description">ASP.NET Core <br> C# <br>Entity Framework<br>SQL <br>MongoDB</h2>    
+
+            </div>
+        </section>
+        <section class="proyecto C# Database" >
+            <div class="proyecto-img">
+                <img class="imagen-proyecto" src="./img/HotelProject.jpg" alt="Image">
+                <h2 class="img-description">ASP.NET Core <br> C# <br>Entity Framework<br>SQL <br>MongoDB </h2>    
+            </div>
+            <div class="proyecto-text">
+              <h2>C# Nate Hotel</h2>
+              <p>C# Nate Hotel es un proyecto desarrollado utilizando tecnologías de ASP.NET C#, Entity Framework y SQL como base de datos, junto con MongoDB para almacenar registros de bitácora de acciones. El objetivo principal del proyecto es permitir la creación de usuarios y reservaciones en las habitaciones de un hotel.
+                <br>
+                El proyecto presenta una interfaz de usuario intuitiva y fácil de usar, que permite a los usuarios registrarse en el sistema y realizar reservaciones en línea de forma rápida y eficiente. Los datos de reserva se almacenan en la base de datos de SQL, mientras que los registros de bitácora se almacenan en la base de datos de MongoDB. El proyecto también utiliza Entity Framework para administrar la conexión a la base de datos.
+              </p>  
+              <a class="enlaces-proyecto" href="https://github.com/Nathan1331" target="_blank"><button class="boton boton-proyecto">VER CODIGO</button></a>
+            </div>
+        </section>
+      
+    </div>
+
+    <script src="js/proyectos.js"></script>
+    <footer>
+        <p>Todos los derechos reservados - Nathan Rosales</p>
+        <p>Iconos creados por <a href="https://www.flaticon.es/iconos-gratis/anillo-de-telefono" title="anillo de teléfono iconos">Kanamaizu - Flaticon</a></p>
+      </footer>
+</body>
+</html>
